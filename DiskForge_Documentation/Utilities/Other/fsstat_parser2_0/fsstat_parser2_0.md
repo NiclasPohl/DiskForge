@@ -1,0 +1,2 @@
+# [fsstat_parser2_0.py](https://faui1-gitlab.cs.fau.de/lena.voigt/diskforge/-/blob/main/DiskForge/Utility/Other/fsstat_parser2_0.py?ref_type=heads)
+This script is a modified version of the TSK fsstat parser which was used for the evaluation of the thesis
