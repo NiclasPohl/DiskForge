@@ -162,6 +162,8 @@ def convert_crc32c(crc32c_val):
     inverted_crc32c = inverter - crc32c_val
     inverted_crc32c = hex(inverted_crc32c)
     inverted_crc32c = inverted_crc32c[2:]
+    if len(inverted_crc32c) % 2 != 0:
+        inverted_crc32c = '0' + inverted_crc32c
     converted_crc32c = bytearray.fromhex(inverted_crc32c)
     converted_crc32c.reverse()
     return converted_crc32c
